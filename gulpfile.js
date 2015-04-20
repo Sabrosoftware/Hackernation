@@ -24,7 +24,7 @@ gulp.task('css', function() {
 
 // JS task for checking errors in .js files
 gulp.task('js', function() {
-  return gulp.src(['server.js', 'public/app/*.js', 'public/app/**/*.js'])
+  return gulp.src(['server.js', 'public/app/*.js', 'public/app/**/*.js', 'app/routes/*.js'])
          .pipe(jshint())
          .pipe(jshint.reporter('default'));
 });
@@ -35,7 +35,7 @@ gulp.task('watch', function() {
   gulp.watch('public/assets/css/style.less', ['css']);
 
   // watch .js files
-  gulp.watch(['server.js', 'public/app/*.js', 'public/app/**/*.js'], ['js']);
+  gulp.watch(['server.js', 'public/app/*.js', 'public/app/**/*.js', 'app/routes/*.js'], ['js']);
 });
 
 // Nodemon task for starting server and continuous watching
