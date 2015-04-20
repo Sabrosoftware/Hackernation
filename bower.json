@@ -1,0 +1,28 @@
+{
+  "name": "Hackernation",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Sabrosoftware/Hackernation",
+  "authors": [
+    "Sabrosoftware"
+  ],
+  "description": "Object Oriented Analysis and Design final proyect",
+  "main": "server.js",
+  "keywords": [
+    "programming"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/assets/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "angular": "~1.3.15",
+    "angular-route": "~1.3.15",
+    "angular-animate": "~1.3.15"
+  }
+}

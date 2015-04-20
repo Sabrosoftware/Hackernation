@@ -1,0 +1,31 @@
+{
+  "name": "Hackernation",
+  "version": "0.1.0",
+  "description": "Object Oriented Analysis and Design final proyect",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sabrosoftware/Hackernation.git"
+  },
+  "keywords": [
+    "programming"
+  ],
+  "author": "Sabrosoftware",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sabrosoftware/Hackernation/issues"
+  },
+  "homepage": "https://github.com/Sabrosoftware/Hackernation",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.10.0",
+    "gulp-less": "^3.0.2",
+    "gulp-nodemon": "^2.0.2"
+  }
+}

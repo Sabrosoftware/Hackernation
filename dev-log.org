@@ -1,0 +1,8 @@
+#+TITLE: Development log for Hackernation
+#+AUTHOR: Eduardo Acuña Yeomans
+
+* 20/04/2015 - 2:24am - EAY
+** Established the directory structure
+** Created some (almost) empty README files
+** Configured the project with npm (info + dependencies)
+** Created some automation tasks

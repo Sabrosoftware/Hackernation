@@ -1,0 +1,2 @@
+# Ignore node_modules, can be recovered with npm install
+/node_modules/*/node-modules/
