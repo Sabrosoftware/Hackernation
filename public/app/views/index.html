@@ -11,18 +11,29 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="assets/libs/bootstrap/dist/css/bootstrap.min.css">
-        
-        <!-- JS -->
+        <link rel="stylesheet" href="assets/libs/animate.css/animate.min.css">
 
-        <!-- APP -->
+        <!-- JS -->
+        <script src="assets/libs/angular/angular.min.js"></script>
+        <script src="assets/libs/angular-route/angular-route.js"></script>
+        <script src="assets/libs/angular-animate/angular-animate.js"></script>
+        
+        <!-- Controllers -->
+        <script src="app/controllers/mainCtrl.js"></script>
+        
+        <!-- Services -->
+        <script src="app/services/problemService.js"></script>
+        <script src="app/services/replyService.js"></script>
+
+        <!-- Main angular app files -->
+        <script src="app/app.routes.js"></script>
+        <script src="app/app.js"></script>
         
     </head>
     
-    <body>
+    <body ng-app="mainApp" ng-controller="mainController as main">
 
         <div class="container">
-
-
 
             <!-- Jumbotrón mamón -->
             <div class="jumbotron text-center">
@@ -32,11 +43,14 @@
                     retroalimentación de/a otros miembros de la comunidad de Hackernation.
                 </p>
             </div>
-
-
-
+            
         </div>
 
+
+        <main class="container">
+            <!-- ANGULAR VIEWS -->
+            <div ng-view></div>
+        </main>
     </body>
     
 </html>

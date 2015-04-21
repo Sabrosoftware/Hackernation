@@ -7,5 +7,4 @@ angular.module('mainApp',
                 'app.routes',
                 'problemService',
                 'replyService',
-                'problemCtrl',
                 'mainCtrl']);
